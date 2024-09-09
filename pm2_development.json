@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "exec_mode": "fork_mode",
+      "script": "./api/api.js",
+      "name": "dealit_development_3000",
+      "node_args": [],
+      "env": {
+        "PORT": 3000,
+        "NODE_ENV":"development"
+      }
+    }
+  ]
+ }
+ 
+ 
